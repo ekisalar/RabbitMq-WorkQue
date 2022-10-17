@@ -36,6 +36,6 @@ using(var channel = connection.CreateModel())
                          autoAck: false,
                          consumer: consumer);
 
-    Console.WriteLine(" Press [enter] to exit.");
+    Console.WriteLine(" Press [enter] to exit.");   
     Console.ReadLine();
 }
